@@ -1,0 +1,173 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    height: 92vh;
+    overflow: scroll;
+    text-overflow: clip;
+    background-color: #101820FF;
+    color: black;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    height: 50px;
+    border: 1px solid goldenrod;
+    text-align: center;
+    background-color: #C2DED1;
+    border-radius: 25px;
+    width: 100%;
+    border: 1px solid white;
+    
+}
+
+.page-header a, .page-header{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 10px;
+}
+.searchdiv{
+    text-align: center;
+}
+.searchdiv input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5%;
+    color: #CDC2AE;
+    background-color: beige;
+    font-size: medium;
+    font-weight: 300;
+    font-style:italic;
+}
+.searchdiv button{
+    height: 40px;
+    width: 50px;
+    border-radius: 15%;
+    background-color:#C2DED1;
+}
+
+.searchbox::placeholder{
+    color: rgb(255, 111, 0);
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.meals{
+    margin: 5px 5px;
+    width: 100px;
+    height: 10px;
+    margin-top: 50px;
+
+}
+.meals span{
+    color: white;
+}
+.mealwrapper{
+    background-color: #C2DED1;
+    border: 1px solid black;
+    width: 96vw;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid green;
+}
+.meal-namebox{
+    height: 14px;
+    overflow-y: auto;
+    font-size: 12px;
+}
+.mealname{
+    height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    position: relative;
+    display: inline-block;
+    margin: 20px 40px;
+}
+
+.fav-meal{
+    position: absolute;
+    right: 0;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.recipe-link{
+    margin-top: 5px;
+    height: 20px;
+    width: auto;
+    border-radius: 20px;
+    background-color: #101820FF;
+}
+.recipe-btn{
+    color: white;
+    text-decoration: none;
+}
+.recipe-info{
+    position: fixed;
+    width: 30vw;
+    height: 70%;
+    left: 35%;
+    bottom: 10%;
+    background-color: #101820FF;
+    overflow-y: auto;
+    color: white;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+.recipe-info p{
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+.recipe-info a{
+    width: 200px;
+    color: aliceblue;
+    font-size:large;
+    text-decoration: dashed;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: beige;
+}
+.recipe-info-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 1px solid white;
+
+    
+}
+.showRecipe{
+    display: block;
+}
+
+.current-fav-meals{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 15px;
+    color: coral;
+    background-color: azure;
+    background-color: beige;
+}
+
