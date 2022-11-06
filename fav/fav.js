@@ -27,7 +27,7 @@ function fetchfav(){
                 </div>
                 <div class="meal-namebox">${meal.strMeal}</div>
                 <div class="recipe-link">
-                <a href="#" class="recipe-btn">Get recipe</a>
+                <a href="#" target="_blank" class="recipe-btn">Get recipe</a>
                 </div>
                 </div>
                 `
@@ -64,7 +64,7 @@ function mealRecipeModal(meal){
         <img src=${meal.strMealThumb} alt="" class="recipe-info-img">
             <p>${meal.strInstructions}</p>
         <br>
-    <a href="${meal.strYoutube}">Watch Video</a>
+    <a target="_blank" href="${meal.strYoutube}">Watch Video</a>
     `;
     mealDetailsContent.innerHTML=html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
